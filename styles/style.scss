@@ -7,6 +7,7 @@
   --text-primary: hsl(230, 17%, 14%);
   --text-secondary: hsl(228, 12%, 44%);
   --slider-bg: hsl(230, 22%, 74%);
+  --card-hover: hsl(232, 33%, 91%);
 }
 
 // Dark theme colors
@@ -16,6 +17,7 @@
   --text-primary: hsl(0, 0%, 100%);
   --text-secondary: hsl(228, 34%, 66%);
   --slider-bg: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  --card-hover: hsl(228, 26%, 27%);
 }
 
 .page {
@@ -90,6 +92,10 @@
     transition: 0.4s;
     border-radius: 34px;
 
+    &:hover {
+      background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    }
+
     &:before {
       position: absolute;
       content: "";
@@ -123,6 +129,11 @@
   margin-bottom: 1rem;
 
   background: var(--card-bg);
+
+  &:hover {
+    background: var(--card-hover);
+    cursor: pointer;
+  }
 
   &:before {
     position: absolute;
@@ -237,6 +248,11 @@
 
   display: flex;
   flex-direction: column;
+
+  &:hover {
+    background: var(--card-hover);
+    cursor: pointer;
+  }
 
   &:before {
     content: var(--icon);

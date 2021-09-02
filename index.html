@@ -20,13 +20,15 @@
   <body class="page js-page light">
     <header class="header">
       <h1 class="header__title">Social Media Dashboard</h1>
-      <span class="header__followers">Total Followers: 23,004</span>
-      <hr class="header__hr">
-      <span class="header__dark-mode">Dark Mode</span>
-      <label class="header__switch switch">
-          <input class="switch__input js-switch" type="checkbox">
-          <span class="switch__slider"></span>
-      </label>
+        <span class="header__followers">Total Followers: 23,004</span>
+        <hr class="header__hr">
+        <div class="header__dark-mode-container">
+          <span class="header__dark-mode">Dark Mode</span>
+          <label class="header__switch switch">
+              <input class="switch__input js-switch" type="checkbox">
+              <span class="switch__slider"></span>
+          </label>
+        </div>
     </header>
 
     <main class="main">
@@ -62,53 +64,54 @@
 
       <div class="overview">
         <h2 class="overview__title">Overview - Today</h2>
-
-        <div class="overview-card overview-card--facebook">
-          <span class="overview-card__title">Page Views</span>
-          <span class="overview-card__count">87</span>
-          <span class="overview-card__change change change_positive">3%</span>
-        </div>
-
-        <div class="overview-card overview-card--facebook">
-          <span class="overview-card__title">Likes</span>
-          <span class="overview-card__count">52</span>
-          <span class="overview-card__change change change_negative">2%</span>
-        </div>
-
-        <div class="overview-card overview-card--instagram">
-          <span class="overview-card__title">Likes</span>
-          <span class="overview-card__count">5462</span>
-          <span class="overview-card__change change change_positive">2257%</span>
-        </div>
-
-        <div class="overview-card overview-card--instagram">
-          <span class="overview-card__title">Profile Views</span>
-          <span class="overview-card__count">52k</span>
-          <span class="overview-card__change change change_positive">1375%</span>
-        </div>
-
-        <div class="overview-card overview-card--twitter">
-          <span class="overview-card__title">Retweets</span>
-          <span class="overview-card__count">117</span>
-          <span class="overview-card__change change change_positive">303%</span>
-        </div>
-
-        <div class="overview-card overview-card--twitter">
-          <span class="overview-card__title">Likes</span>
-          <span class="overview-card__count">507</span>
-          <span class="overview-card__change change change_positive">553%</span>
-        </div>
-
-        <div class="overview-card overview-card--youtube">
-          <span class="overview-card__title">Likes</span>
-          <span class="overview-card__count">107</span>
-          <span class="overview-card__change change change_negative">19%</span>
-        </div>
-
-        <div class="overview-card overview-card--youtube">
-          <span class="overview-card__title">Total Views</span>
-          <span class="overview-card__count">1407</span>
-          <span class="overview-card__change change change_negative">12%</span>
+        <div class="overview__cards">
+          <div class="overview-card overview-card--facebook">
+            <span class="overview-card__title">Page Views</span>
+            <span class="overview-card__count">87</span>
+            <span class="overview-card__change change change_positive">3%</span>
+          </div>
+  
+          <div class="overview-card overview-card--facebook">
+            <span class="overview-card__title">Likes</span>
+            <span class="overview-card__count">52</span>
+            <span class="overview-card__change change change_negative">2%</span>
+          </div>
+  
+          <div class="overview-card overview-card--instagram">
+            <span class="overview-card__title">Likes</span>
+            <span class="overview-card__count">5462</span>
+            <span class="overview-card__change change change_positive">2257%</span>
+          </div>
+  
+          <div class="overview-card overview-card--instagram">
+            <span class="overview-card__title">Profile Views</span>
+            <span class="overview-card__count">52k</span>
+            <span class="overview-card__change change change_positive">1375%</span>
+          </div>
+  
+          <div class="overview-card overview-card--twitter">
+            <span class="overview-card__title">Retweets</span>
+            <span class="overview-card__count">117</span>
+            <span class="overview-card__change change change_positive">303%</span>
+          </div>
+  
+          <div class="overview-card overview-card--twitter">
+            <span class="overview-card__title">Likes</span>
+            <span class="overview-card__count">507</span>
+            <span class="overview-card__change change change_positive">553%</span>
+          </div>
+  
+          <div class="overview-card overview-card--youtube">
+            <span class="overview-card__title">Likes</span>
+            <span class="overview-card__count">107</span>
+            <span class="overview-card__change change change_negative">19%</span>
+          </div>
+  
+          <div class="overview-card overview-card--youtube">
+            <span class="overview-card__title">Total Views</span>
+            <span class="overview-card__count">1407</span>
+            <span class="overview-card__change change change_negative">12%</span>
+          </div>
         </div>
       </div>
     </main>

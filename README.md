@@ -30,10 +30,6 @@ Users should be able to:
 
 ![Desktop](./screenshots/desktop-light.png)
 
-![Mobile](./screenshots/mobile-light.png)
-
-![Dark Mode](./screenshots/desktop-dark.png)
-
 ### Links
 
 - Solution URL: [https://github.com/rufflehuffle/social-media-dashboard](https://github.com/rufflehuffle/social-media-dashboard)
@@ -159,8 +155,6 @@ This project was also the first time I used BEM and SCSS. I throughly enjoyed ha
 
 - [Get BEM](http://getbem.com/) - Used this website to read up on BEM and its methodology.
 - [CSS-Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Anytime I needed help with flexbox properties, I used this as my reference.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
